@@ -1,0 +1,66 @@
+
+@keyframes process {
+    0%{
+        opacity: 0;
+        transform: translateX(-200%);
+    }
+    40%{
+        opacity:1 ;
+        transform: translateX(0);
+    }
+    55%{
+       
+        transform: translateX(-6px);
+    }
+    70%{
+       
+        transform: translateX(0);
+    }
+    85%{
+       
+        transform: translateX(-3px);
+    }
+
+  100%{
+     opacity: 1;
+     transform: translateX(0);
+  }
+  }
+
+.innerp.active{
+    
+    animation-name:process;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+    transition: all 1s;
+}
+
+ .proceedure :nth-child(2) {
+    animation-delay: .5s;
+ }
+ .proceedure :nth-child(3) {
+    animation-delay: 1s;
+ }
+ .proceedure :nth-child(4) {
+    animation-delay: 1.5s;
+ }
+ .line-color.active{
+     opacity: 1;
+     animation-name: line-animation;
+    animation-duration: 1.5s;
+    animation-fill-mode:forwards;
+    transition: all 10s;
+ }
+
+ @keyframes line-animation {
+    0%{
+        opacity: 1;
+        transform: translateX(-70%);
+    }
+  
+
+  100%{
+    opacity: 1;
+     transform: translateX(-2px);
+  }
+  }

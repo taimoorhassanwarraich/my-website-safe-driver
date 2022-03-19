@@ -1,0 +1,822 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!--CSS Link-->
+    <link rel="stylesheet" href="style.css">
+    <!--Animation -->
+    <link rel="stylesheet" href="animation.css">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!--My font awsom-->
+     <script src="https://kit.fontawesome.com/3aba6fde0e.js" crossorigin="anonymous"></script>
+     <!-------------------------------------------------------------------------------------->
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            
+            <a href="#" class="safe-driver">
+                <img src="images/logo2.jpg" alt="Safe Driver" width="60px" height="60px" >Safe Driver Dubai</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Procedure" class="nav-link">Procedure</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Pricing" class="nav-link">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link "
+                    target="blank"
+                     href="https://api.whatsapp.com/send?phone=910000000000&text=Hello this is the starting message">
+                     <i class="fa fa-whatsapp whatsapp"></i>
+                    </a> 
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--=============== HOME ===============-->
+              
+<!--=============== HOME ===============-->
+      
+            <div class="home" id="home">
+
+  <div class="carousel" >
+    <div class="carousel_inner">
+     <div class="carousel_item carousel_item__active">
+        <img src="images/slider2.jpg" alt="" class="carousel_img">
+        <div class="carousel_caption">
+          <h1 class="carousel_title">Safe Driver <span class="span-style">Dubai</span>  </h1>
+          <p class="carousel_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id cupiditate
+            <br>corporis laudantium quae velit quam. Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <div class="slider-btn">
+                
+                <a href="#">Whatsapp us</a>
+                
+              </div>
+            </div>
+
+          </div>
+          <div class="carousel_item">
+        <img src="images/slider.jpg" alt="" class="carousel_img">
+        <div class="carousel_caption">
+          <h1 class="carousel_title">Safe Driver <span class="span-style">Dubai</span>  </h1>
+          <p class="carousel_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id cupiditate
+            <br>corporis laudantium quae velit quam. Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <div class="slider-btn">
+                <a href="#">Call us</a>
+                
+              </div>
+            </div>
+           
+     </div>
+     <div class="carousel_item">
+        <img src="images/slider1.jpg" alt="" class="carousel_img">
+        <div class="carousel_caption">
+          <h1 class="carousel_title">Safe Driver <span class="span-style">Dubai</span>  </h1>
+          <p class="carousel_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id cupiditate
+            <br>corporis laudantium quae velit quam. Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <div class="slider-btn">
+                <a href="#online-form">Online Booking</a>
+                
+              </div>
+            </div>
+     </div>
+     <div class="cover">
+
+     </div>
+    </div>
+    
+    <div class="carousel_indicator">
+      <button class="carousel_dot carousel_dot__active"></button>
+     <button class="carousel_dot"></button>
+     <button class="carousel_dot"></button>
+  </div>
+
+  <div class="carousel_control">
+     <button class="carousel_button carousel_button__prev">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button class="carousel_button carousel_button__next">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+</div>
+
+             </div>
+
+
+      <!--Online form-->
+         <div class="online-form " id="online-form">
+           <div class="form-pic">
+            <h1>We assure your
+              <span
+                 class="txt-rotate"
+                 data-period="2000"
+                 data-rotate='[ "Safety.", "Comfort.", "Privacy.", ".", "fun!" ]'></span>
+            </h1>
+           </div>
+           <div class="form-container">
+
+             <form action="">
+               <div class="firs-row">
+                
+                 <input type="text" id="order-name" class="border-form" placeholder="Name" required>
+                 <input type="email" id="order-email" class="border-form" placeholder="Email address" required>
+                 <input type="text" id="order-phone" class="border-form" placeholder="Phone number" required>
+
+               </div>
+               <div class="second-row">
+                
+                <input type="text" id="order-Destination" class="border-form"  placeholder="Location" required>
+                <input type="email" id="order-Destination" class="border-form" placeholder="Destination" required>
+                <input id="party" class="border-form"  type="datetime-local" name="partydate" value="2017-06-01T08:30" required>
+
+              </div>
+              <div class="order-btn">
+                <input type="submit" value="Find Driver">
+              </div>
+            </form>
+          </div>
+         </div>
+
+
+        <!--=============== ABOUT ===============-->
+        <section class="container section section__height" id="about">
+            
+          <div class="about-header">
+            <p>who are we</p>
+            <img class="texi-sign" src="images/taxi.png" alt="" style="filter: invert(48%) sepia(65%) saturate(457%) hue-rotate(325deg) brightness(100%) contrast(86%);">
+            
+          </div>
+            
+         <div class="inner-about">
+           <div class="about-pic">
+             <img class="about-picture" src="images/about.jpg" alt="">
+          </div>  
+          <div class="about-animation">
+              <h3>we are a professional Safe Driver Company</h3>
+              <p class="about-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae nisi ducimus sequi laboriosam perspiciatis dolor.</p>
+              <div class="animation-head">
+                <p class="animation-text">Customer Satisfaction</p>
+                <p class="animation-number">100%</p>
+
+              </div>
+              <div class="line">
+                <div class="line-color">  
+                </div>
+                </div>
+                 <p class="color-footer">all our customers are happy</p>
+                <div class="animation-head ">
+                  <p class="animation-text">Customer's Safety</p>
+                  <p class="animation-number">100%</p>
+  
+                </div>
+                <div class="line">
+                  <div class="line-color">
+  
+                  </div>            
+              </div>
+              <p class="color-footer">Customer safety is our firt priority </p>
+              <div class="animation-head anm-margine">
+                <p class="animation-text">Reaction Time</p>
+                <p class="animation-number">97%</p>
+
+              </div>
+             
+              <div class="line">
+                <div class="line-color line-2nd">
+                  
+                </div>
+              </div>
+              <p class="color-footer">all our customers are happy</p>
+              <div class="animation-head anm-margine">
+                <p class="animation-text">City Coverage</p>
+                <p class="animation-number">60%</p>
+                
+              </div>
+              <div class="line ">
+                <div class="line-color line-3rd">
+                  
+                </div>
+              </div>    
+              <p class="color-footer">we're expanding everyday, but we still need time 🙂</p>
+            </div>      
+          </div>      
+          
+          
+        </div>
+          
+        </section>
+
+        <!--=============== Procedure ===============-->
+        <section class="container section section__height" id="Procedure">
+             <div class="process">
+               <h3 class="process-heading">How it Works <samp class="process-ex">!</samp></h3>
+               <p class="process-para">
+                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe inventore praesentium labore animi repellat tenetur!
+               </p>
+             </div>
+
+            <div class="proceedure">
+                <div class="innerp">
+                  <a target="blank"
+                  href="https://api.whatsapp.com/send?phone=910000000000&text=Hello this is the starting message">
+                  
+                  <img class="icon" src="images/booking.png" alt="" style="filter: invert(32%) sepia(11%) saturate(1146%) hue-rotate(20deg) brightness(96%) contrast(90%);"> 
+                  <h3 class="heading">Make a Booking</h3>
+                  <p class="para">Make a Booking Request Online or By Chat.</p>
+                  <div class="number">
+                    01
+                  </div>
+                  
+                </a> 
+                </div>
+                <div class="innerp">
+                    <img class="icon" src="images/location.png" alt="" style="filter: invert(32%) sepia(11%) saturate(1146%) hue-rotate(20deg) brightness(96%) contrast(90%);"> 
+                    <h3 class="heading">Pickup Location</h3>
+                    <p class="para">Provide Pickup Date, Time and Contact Details.</p>
+                    <div class="number">
+                        02
+                    </div>
+                 </div>
+                 <div class="innerp">
+                    <img class="icon" src="images/driver.png" alt=""style="filter: invert(32%) sepia(11%) saturate(1146%) hue-rotate(20deg) brightness(96%) contrast(90%);"> 
+                    <h3 class="heading">Driver Will Arrive </h3>
+                    <p class="para">Driver Will Contact Few Minutes Before Reaching There,</p>
+                    <div class="number">
+                        03
+                    </div>
+                 </div>
+                 <div class="innerp">
+                    <img class="icon" src="images/credit-card.png" alt=""style="filter: invert(32%) sepia(11%) saturate(1146%) hue-rotate(20deg) brightness(96%) contrast(90%);"> 
+                    <h3 class="heading">Pay Cash </h3>
+                    <p class="para">We accept both credit card and cash payments.</p>
+                    <div class="number">
+                        04
+                    </div>
+                 </div>
+            </div>
+        </section>
+
+        <!--=============== Services ===============-->
+        <section class="container section section__height" id="Services">
+            
+
+            <div class="container-fluid">
+                <h1 class="text-center mt-5 display-3 fw-bold">Our <span class="theme-text">Services</span></h1>
+                <hr class="mx-auto mb-5 w-25">
+                <div class="row mb-5">
+                    <div class="col-12 col-sm-6 col-md-3 m-auto">
+                        <!-- card starts here -->
+                        <div class="card shadow">
+                            <img src="images/party.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="text-center">After Party Pickup</h3>
+                                <hr class="mx-auto w-75">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi soluta est veniam sequi
+                                    nemo, quas delectus eveniet ducimus rem animi. Natus non earum deleniti aliquam
+                                </p>
+                            </div>
+                            <div class="service-whatsapp">
+                                <a  href="https://api.whatsapp.com/send?phone=910000000000&text=Hello this is the starting message">whatsapp Us</a> </div>
+                        </div>
+                        <!-- card ends here -->
+                    </div>
+                    <!-- col ends here -->
+                    <div class="col-12 col-sm-6 col-md-3 m-auto">
+                        <!-- card starts here -->
+                        <div class="card shadow">
+                            <img src="images/city.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="text-center">City Tour</h3>
+                                <hr class="mx-auto w-75">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi soluta est veniam sequi
+                                    nemo, quas delectus eveniet ducimus rem animi. Natus non earum deleniti aliquam
+                                </p>
+                            </div>
+                            <div class="service-whatsapp">
+                                <a  href="https://api.whatsapp.com/send?phone=910000000000&text=Hello this is the starting message">whatsapp Us</a> </div>
+                        </div>
+                        <!-- card ends here -->
+                    </div>
+                    <!-- col ends here -->
+                    <div class="col-12 col-sm-6 col-md-3 m-auto">
+                        <!-- card starts here -->
+                        <div class="card shadow">
+                            <img src="images/coorporate.jpeg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="text-center">Corporate Transfers</h3>
+                                <hr class="mx-auto w-75">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi soluta est veniam sequi
+                                    nemo, quas delectus eveniet ducimus rem animi. Natus non earum deleniti aliquam
+                                </p>
+                            </div>
+                            <div class="service-whatsapp">
+                                <a  href="https://api.whatsapp.com/send?phone=910000000000&text=Hello this is the starting message">whatsapp Us</a> </div>
+                        </div>
+                        <!-- card ends here -->
+                    </div>
+                    <!-- col ends here -->
+                    <div class="col-12 col-sm-6 col-md-3 m-auto">
+                        <!-- card starts here -->
+                        <div class="card shadow">
+                            <img src="images/airport.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="text-center">Airport Transfers</h3>
+                                <hr class="mx-auto w-75">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi soluta est veniam sequi
+                                    nemo, quas delectus eveniet ducimus rem animi. Natus non earum deleniti aliquam
+                                </p>
+                            </div>
+                            <div class="service-whatsapp">
+                                <a  href="https://api.whatsapp.com/send?phone=910000000000&text=Hello this is the starting message">whatsapp Us</a> </div>
+                        </div>
+                        <!-- card ends here -->
+                    </div>
+                    <!-- col ends here -->
+                </div>
+            </div>
+        </section>
+        <!--  Experience section-->
+        
+
+        <div class="counter-up">
+          <div class="content">
+            <div class="box">
+              <div class="icon"><i class="fas fa-history"></i></div>
+              <div class="counter">7248</div>
+              <div class="text">Working Hours</div>
+              <div class="plus">+</div>
+            </div>
+            <div class="box">
+              <div class="icon"><i class="fa-solid fa-object-group"></i></div>
+              <div class="counter">5088</div>
+              <div class="text">Regular Clients</div>
+              <div class="plus">+</div>
+            </div>
+            <div class="box">
+              <div class="icon"><i class="fas fa-users"></i></div>
+              <div class="counter">4362</div>
+              <div class="text">Happy Clients</div>
+              <div class="plus">+</div>
+            </div>
+            <div class="box">
+              <div class="icon"><i class="fas fa-award"></i></div>
+              <div class="counter">120</div>
+              <div class="text">Awards Received</div>
+              <div class="plus award">+</div>
+            </div>
+          </div>
+        </div>
+        <!--=============== Pricing ===============-->
+                <section class="container section section__height" id="Pricing">
+                    <div class="price-content">
+
+                      <h2 class="price-heading">Price Structure</h2>
+                      <p class="price-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam necessitatibus quasi hic nihil, sint quibusdam.</p>
+                    </div>  
+
+                    <div class="snip1404">
+                        <div class="plan">
+                          <header>
+                            <h4 class="plan-title">
+                                Within-Dubai
+                            </h4>
+                            <div class="plan-cost"><span class="plan-price">Single Pickup Single Drop-off</span></div>
+                          </header>
+                          <ul class="plan-features">
+                            <li><i class="fa-solid fa-circle-arrow-right"></i>0 - 10 KM AED 90 </li>
+                            <li><i class="fa-solid fa-circle-arrow-right"></i>0 - 10 KM AED 90</li>
+                            <li><i class="fa-solid fa-circle-arrow-right"></i>0 - 10 KM AED 90</li>
+                            <li><i class="fa-solid fa-circle-arrow-right"></i>0 - 10 KM AED 90</li>
+                            <li><i class="fa-solid fa-circle-arrow-right"></i>0 - 10 KM AED 90</li>
+                            <li><i class="fa-solid fa-circle-arrow-right"></i>0 - 10 KM AED 90</li>
+                          </ul>
+                          <div class="plan-select">
+                            <a  href="https://api.whatsapp.com/send?phone=910000000000&text=Hello this is the starting message">whatsapp Us</a> </div>
+                        </div>
+                        <div class="plan">
+                          <header>
+                            <h4 class="plan-title">
+                               
+                                Inter-Emirates
+                
+                            </h4>
+                            <div class="plan-cost"><span class="plan-price">Single Pickup Single Drop-off</span></div>
+                          </header>
+                          <ul class="plan-features">
+                            <li><i class="fa-solid fa-circle-arrow-right"></i>Dubai > Abu Dhabi AED 200</li>
+                            <li><i class="fa-solid fa-circle-arrow-right"></i>Dubai > Abu Dhabi AED 200</li>
+                            <li><i class="fa-solid fa-circle-arrow-right"></i>Dubai > Abu Dhabi AED 200</li>
+                            <li><i class="fa-solid fa-circle-arrow-right"></i>Dubai > Abu Dhabi AED <span class="counter or-font">500</span></li>
+                            <li><i class="fa-solid fa-circle-arrow-right"></i>Dubai > Abu Dhabi AED <span class="counter or-font">900</span></li>
+                            <li><i class="fa-solid fa-circle-arrow-right"></i>Dubai > Abu Dhabi AED <span class="counter or-font">200</span></li>
+                          </ul>
+                          <div class="plan-select">
+                            <a  href="https://api.whatsapp.com/send?phone=910000000000&text=Hello this is the starting message">whatsapp Us</a> </div>
+                        </div>
+                        <div class="plan featured">
+                          <header>
+                            <h4 class="plan-title">
+                               
+                                Hourly Plan
+                            </h4>
+                            <div class="plan-cost"><span class="plan-price">Minimum 2 Hours Booking</span></div>
+                          </header>
+                          <ul class="plan-features">
+                            <li><i class="fa-solid fa-circle-arrow-right"></i>2 Hours AED <span class="counter or-font">150</span></li>
+                            <li><i class="fa-solid fa-circle-arrow-right"></i>2 Hours AED <span class="counter or-font">170</span></li>
+                            <li><i class="fa-solid fa-circle-arrow-right"></i>2 Hours AED <span class="counter or-font">190</span></li>
+                            <li><i class="fa-solid fa-circle-arrow-right"></i>2 Hours AED <span class="counter or-font">200</span></li>
+                            <li><i class="fa-solid fa-circle-arrow-right"></i>2 Hours AED <span class="counter or-font">210</span></li>
+                            <li><i class="fa-solid fa-circle-arrow-right"></i>2 Hours AED <span class="counter or-font">230</span></li>
+                          </ul>
+                           <div class="plan-select">
+                            <a  href="https://api.whatsapp.com/send?phone=910000000000&text=Hello this is the starting message">whatsapp Us</a> 
+                            </div>
+                        </div>
+                
+                      </div>
+                </section>
+
+                <!--=============== Banner ===============-->
+           <div class="banner">
+             <div class="banner-content">
+
+               <div class="banner-heading">
+                 <h2>Lets Drive With Us</h2>
+                </div>
+                <div class="banner-para">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis perferendis ipsa beatae ullam? Necessitatibus, sed?
+                </div>
+              </div>
+            <div class="banner-btn">
+              
+                <a target="blank" href="https://api.whatsapp.com/send?phone=910000000000&text=Hello this is the starting message"><i class="fa-brands fa-whatsapp"></i></a> 
+                <a href="tel:+4733378901"><i class="fa-solid fa-phone"></i></a>
+              
+            </div>
+            </div>
+        <!--=============== CONTACTME ===============-->
+        <section class="container section section__height" id="contact">
+          <div class="contact-container">
+            <div class="contact-heading">
+              GET IN TOUCH
+            </div>
+            <div class="innercontainer">
+
+              <div class="contact-left">
+                <div class="contact-number">
+                  <a 
+                  href="https://api.whatsapp.com/send?phone=910000000000&text=Hello this is the starting message">
+                  <i class="fa fa-whatsapp whatsapp cicon"></i> whatsapp us
+                </a> 
+                <a href="mailto:raunak.00o201@gmail.com"> <i class="fa-solid fa-envelope cicon"></i>engalihamza81@gmail.com </a>
+                
+                <a href="tel:+971561139967"><i class="fa-solid fa-phone cicon"></i> Call us </a>
+                <div class="location">
+                  
+                  <i class="fa-solid fa-location-pin cicon"></i>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+                </div>
+                </div>
+                <div class="map">
+                            
+                <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.9541494790737!2d55.24600031500904!3d25.171025983908365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa663f150a3cbd12c!2zMjXCsDEwJzE1LjciTiA1NcKwMTQnNTMuNSJF!5e0!3m2!1sen!2s!4v1647213311456!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="contact-right">
+              <form action="">
+                <div class="form-heading">
+                  Leave us a message
+                </div>
+                <div class="first">
+                  <input type="text" placeholder="name" required id="name" class="geti-text">
+                  <input type="tel" placeholder="Phone" required id="phoone" class="geti-text">
+                </div>
+                <div class="second">
+                  <input type="email" placeholder="Email" required id="email" class="geti-text">
+                  <input type="text" placeholder="Subject" required id="Subject" class="geti-text">
+                </div>
+                <div class="third">
+
+                  <textarea name="" id="contact-text" placeholder="Write your message here"></textarea>
+                </div>
+                <div class="btn">
+                  <input type="submit"  value="Send">
+                </div>
+              </form>
+            </div> 
+          </div>
+          </div>
+        </section>
+
+                  <!--=============== Testimonial ===============-->
+
+        <section id="test">
+
+           <div class="testimonial">
+            
+            <section class="innertesti">
+              
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Testimonials</h2>
+                        <span class="section-separator"></span>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="testimonials-carousel-wrap">
+                    <div class="listing-carousel-button listing-carousel-button-next"><i class="fa fa-caret-right" style="color: #fff"></i></div>
+                    <div class="listing-carousel-button listing-carousel-button-prev"><i class="fa fa-caret-left" style="color: #fff"></i></div>
+                    <div class="testimonials-carousel">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="testi-item">
+                                        <div class="testi-avatar"><img src="images/21.jpg"></div>
+                                        <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                        <div class="testimonials-text">
+                                            <div class="listing-rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <a href="#" class="text-link"></a>
+                                <div class="testimonials-avatar">
+                                    <h3>John Doe</h3>
+                                    
+                                </div>
+                            </div>
+                            <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                        </div>
+                    </div>
+                    
+                    <!--second--->
+                    <div class="swiper-slide">
+                        <div class="testi-item">
+                            <div class="testi-avatar"><img src="images/3.jpg"></div>
+                            <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                            <div class="testimonials-text">
+                                <div class="listing-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <a href="#" class="text-link"></a>
+                                <div class="testimonials-avatar">
+                                    <h3>Doe Boe</h3>
+                                </div>
+                            </div>
+                            <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                        </div>
+                    </div>
+                    <!--third-->
+                    
+                    <div class="swiper-slide">
+                        <div class="testi-item">
+                            <div class="testi-avatar"><img src="images/4.jpg"></div>
+                            <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                            <div class="testimonials-text">
+                                <div class="listing-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <a href="#" class="text-link"></a>
+                                <div class="testimonials-avatar">
+                                    <h3>Boe Doe</h3>
+                                    
+                                </div>
+                            </div>
+                            <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                        </div>
+                    </div>
+                    
+                    <!--fourth-->
+                    <div class="swiper-slide">
+                        <div class="testi-item">
+                            <div class="testi-avatar"><img src="images/6.jpg"></div>
+                            <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                            <div class="testimonials-text">
+                                <div class="listing-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <a href="#" class="text-link"></a>
+                                <div class="testimonials-avatar">
+                                    <h3>Doe John</h3>
+                                    
+                                </div>
+                            </div>
+                            <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                        </div>
+                    </div>
+                    <!--testi end-->
+                    
+                </div>
+            </div>
+         </div>
+        
+         <div class="tc-pagination"></div>
+    
+        </section>
+
+
+
+</main>
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color pt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+  
+      <!-- Footer links -->
+      <div class="row text-center text-md-left mt-3 pb-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold footer-heading">Company name</h6>
+          <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+            consectetur
+            adipisicing elit.</p>
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="w-100 clearfix d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold footer-heading">Services</h6>
+          <p>
+            <a href="#Services">After Party Pickup  </a>
+          </p>
+          <p>
+            <a href="#Services">Corporate Transfers</a>
+          </p>
+          <p>
+            <a href="#Services">Airport Transfers</a>
+          </p>
+          <p>
+            <a href="#Services">City Tour</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="w-100 clearfix d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold footer-heading">Useful links</h6>
+          <p>
+            <a href="#home">Home</a>
+          </p>
+          <p>
+            <a href="#Procedure">Procedure</a>
+          </p>
+          <p>
+            <a href="#Pricing">Pricing</a>
+          </p>
+          <p>
+            <a href="#about">About</a>
+          </p>
+        </div>
+  
+        <!-- Grid column -->
+        <hr class="w-100 clearfix d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold footer-heading">Contact</h6>
+          <p>
+            <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> <a href="tel:+4733378901">+47 333 78 901</a></p>
+          <p>
+            <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Footer links -->
+  
+      <hr>
+  
+      <!-- Grid row -->
+      <div class="row d-flex align-items-center">
+  
+        <!-- Grid column -->
+        <div class="col-md-7 col-lg-8">
+  
+          <!--Copyright-->
+          <p class="text-center text-md-left">© 2020 Copyright:
+            <a href="https://mdbootstrap.com/">
+              <strong> MDBootstrap.com</strong>
+            </a>
+          </p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-5 col-lg-4 ml-lg-0">
+  
+          <!-- Social buttons -->
+          <div class="text-center text-md-right">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-google-plus-g"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+  </footer>
+  <!-- Footer -->
+    
+
+    <!--Linking Javascript-->
+    <script src="app.js"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <script src="scrpts.js"></script>
+</body>
+</html>
